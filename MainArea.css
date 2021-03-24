@@ -1,0 +1,35 @@
+.MainArea{
+    display:flex;
+    justify-content: space-between;
+}
+.Sidebar{
+    display:grid;
+    width: 17%;
+    height: 1rem;
+    
+}
+.Sidebar>div{
+    height:auto;
+}
+.Home{
+    border-bottom: 1px black solid;
+}
+.Quick_Icon{
+    display:flex;
+    align-items: center;
+    font-size: 1.7rem;
+    padding: 10px;
+}
+.Quick_Icon>div{
+    padding: 0 12px;
+}
+
+
+/*Main*/
+.Main{
+    display:flex;
+    justify-content: flex-start;
+    
+    width:83%;
+    height : 60rem;
+}
